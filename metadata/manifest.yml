@@ -7,6 +7,7 @@ License: "MIT"
 Vendor: google
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: filirom1
+Source-Url: https://github.com/karrim/openshift-cartridge-dart.git
 Categories:
   - service
   - web_framework
