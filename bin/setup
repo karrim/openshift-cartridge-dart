@@ -4,6 +4,6 @@ cd ${OPENSHIFT_DATA_DIR}
 #curl -s -o ${OPENSHIFT_DATA_DIR}/dartsdk-linux-64.zip http://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/dartsdk-linux-x64-release.zip
 #unzip dartsdk-linux-64.zip
 #rm dartsdk-linux-64.zip
-wget -O ${OPENSHIFT_DATA_DIR}/dart-sdk.tar.gz https://www.dropbox.com/s/lo4ly28yjayfmi4/dart-sdk.tar.gz?dl=1 
+wget -O ${OPENSHIFT_DATA_DIR}/dart-sdk.tar.gz http://goo.gl/ZJZpWa
 tar -zxf ${OPENSHIFT_DATA_DIR}/dart-sdk.tar.gz
 rm ${OPENSHIFT_DATA_DIR}/dart-sdk.tar.gz
